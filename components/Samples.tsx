@@ -1,6 +1,4 @@
-// components/ImageGallery.js
-"use client";
-import { useState } from "react";
+// components/Samples.js
 
 const images = [
   "/sample-1.png",
@@ -12,8 +10,6 @@ const images = [
 ];
 
 const Samples = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
-
   return (
     <div className="container mx-auto py-10">
       <h1 className="md:text-4xl text-3xl font-bold mb-8">
@@ -23,10 +19,8 @@ const Samples = () => {
         {images.map((src, index) => (
           <div
             key={index}
-            className={`relative transition-transform duration-500 ${
-              index === activeIndex ? "transform scale-110 z-10" : ""
-            }`}
-            onClick={() => setActiveIndex(index === activeIndex ? null : index)}
+            className="relative transition-transform duration-500
+              transform hover:scale-110"
           >
             <img
               src={src}
