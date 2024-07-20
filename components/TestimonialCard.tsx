@@ -1,7 +1,19 @@
-// components/TestimonialCard.js
+// components/TestimonialCard.tsx
 import Image from "next/image";
 
-const TestimonialCard = ({ stars, comment, userImage, userName }) => {
+interface TestimonialCardProps {
+  stars: number;
+  comment: string;
+  userImage: string;
+  userName: string;
+}
+
+const TestimonialCard: React.FC<TestimonialCardProps> = ({
+  stars,
+  comment,
+  userImage,
+  userName,
+}) => {
   return (
     <div className="p-4 bg-white shadow-lg rounded-lg flex flex-col items-center space-y-4 hover:bg-purple-600 hover:text-white text-gray-900">
       {/* Stars */}
