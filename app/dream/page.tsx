@@ -26,7 +26,7 @@ const options: UploadWidgetConfig = {
   editor: { images: { crop: false } },
   styles: {
     colors: {
-      primary: "#5D3FD3", // Primary buttons & links
+      primary: "#C6591E", // Primary buttons & links
       error: "#d23f4d", // Error messages
       shade100: "#fff", // Standard text
       shade200: "#fffe", // Secondary button text
@@ -104,7 +104,7 @@ export default function DreamPage() {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          Generate your <span className="text-purple-600">dream</span> room
+          Design Your <span className="text-orange-600">Ideal</span> Space
         </h1>
         <ResizablePanel>
           <AnimatePresence mode="wait">
@@ -120,7 +120,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room theme.
+                        Choose your space theme.
                       </p>
                     </div>
                     <DropDown
@@ -140,7 +140,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Choose your room type.
+                        Choose your space type.
                       </p>
                     </div>
                     <DropDown
@@ -158,7 +158,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        Upload a picture of your room.
+                        Upload a picture of your space.
                       </p>
                     </div>
                   </div>
@@ -227,7 +227,7 @@ export default function DreamPage() {
               {loading && (
                 <button
                   disabled
-                  className="bg-purple-500 rounded-full text-white font-medium px-4 pt-2 pb-3 mt-8 w-40"
+                  className="bg-orange-500 rounded-full text-white font-medium px-4 pt-2 pb-3 mt-8 w-40"
                 >
                   <span className="pt-4">
                     <LoadingDots color="white" style="large" />
@@ -251,7 +251,7 @@ export default function DreamPage() {
                       setRestoredLoaded(false);
                       setError(null);
                     }}
-                    className="bg-purple-500 rounded-full text-white font-medium px-4 py-2 mt-8 hover:bg-purple-600 transition"
+                    className="bg-orange-500 rounded-full text-white font-medium px-4 py-2 mt-8 hover:bg-orange-600 transition"
                   >
                     Generate New Room
                   </button>

@@ -47,11 +47,11 @@ const Testimonials = () => {
         <div className="flex md:flex-row flex-col justify-between items-center md:items-start gap-2 mb-4">
           <h2 className="text-4xl  font-bold text-center md:mb-8">
             Loved by many <br />
-            <span className="text-purple-600">Worldwide</span>.
+            <span className="text-orange-600">Worldwide</span>.
           </h2>
           <p className="text-xl md:font-bold">
-            See what our users are <br />
-            saying about the product.
+            Discover What Our <br />
+            Customers Love.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -15,7 +15,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   userName,
 }) => {
   return (
-    <div className="p-4 bg-white shadow-lg rounded-lg flex flex-col items-center space-y-4 hover:bg-purple-600 hover:text-white text-gray-900">
+    <div className="p-4 bg-white shadow-lg rounded-lg flex flex-col items-center space-y-4 hover:bg-orange-600 hover:text-white text-gray-900">
       {/* Stars */}
       <div className="flex">
         {[...Array(stars)].map((_, index) => (

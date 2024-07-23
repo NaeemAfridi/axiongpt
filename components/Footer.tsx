@@ -13,23 +13,6 @@ export default function Footer() {
         >
           Replicate,{" "}
         </a>
-        <a
-          href="https://www.bytescale.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline hover:text-gray-300 transition underline-offset-2"
-        >
-          Bytescale,{" "}
-        </a>
-        and{" "}
-        <a
-          href="https://vercel.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
-        >
-          Vercel.
-        </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0 text-gray-500">
         <p>Created by M Awais , Hassan Shinwari</p>

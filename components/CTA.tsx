@@ -7,13 +7,13 @@ const CTA = () => {
         {/* Left Side: Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left px-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-4 capitalize">
-            <span className="text-purple-500">Transform any room </span> with
-            just one photo
+            <span className="text-orange-500">Instant Room Makeovers </span>{" "}
+            with a Click
           </h1>
           <p className="mb-6">Generate stunning room designs effortlessly.</p>
           <Link
             href="/dream"
-            className="bg-purple-500 text-white px-8 py-3  hover:bg-purple-700 rounded-xl"
+            className="bg-orange-500 text-white px-8 py-3  hover:bg-orange-700 rounded-xl"
           >
             Try it Now
           </Link>

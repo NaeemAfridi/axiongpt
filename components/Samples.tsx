@@ -13,7 +13,7 @@ const Samples = () => {
   return (
     <div className="container mx-auto py-10">
       <h1 className="md:text-4xl text-3xl font-bold mb-8">
-        Rooms that <span className="text-purple-600">RoomGPT</span> created
+        Rooms that <span className="text-orange-600">AxionGPT</span> created
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {images.map((src, index) => (
